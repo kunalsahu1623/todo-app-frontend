@@ -34,7 +34,7 @@
                                         <td className="px-4 py-2">{todo.todoTitle}</td>
                                         <td className="px-4 py-2">{todo.status}</td>
                                         <td className="px-4 py-2">{new Date(todo.dueDate).toLocaleDateString()}</td>
-                                        <td className="px-4 py-2">i
+                                        <td className="px-4 py-2">
                                             <button
                                                   onClick={(e) => handleClick(e, todo.todoId)}
                                                 className="text-green-600 hover:text-green-800 transition duration-200"
